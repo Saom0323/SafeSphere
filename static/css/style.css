@@ -1,0 +1,235 @@
+/* ===========================
+   SafeSphere Professional CSS
+=========================== */
+
+body{
+    background:#f4f7fc;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Hero */
+
+.hero{
+    padding:80px 0;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+    color:#666;
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5{
+    font-weight:bold;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:18px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
+}
+
+/* Forms */
+
+.form-control{
+    border-radius:10px;
+    height:48px;
+}
+
+textarea.form-control{
+    height:auto;
+    resize:none;
+}
+
+.form-control:focus{
+    border-color:#0d6efd;
+    box-shadow:0 0 8px rgba(13,110,253,.25);
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.btn-primary{
+    background:#0d6efd;
+}
+
+.btn-danger{
+    background:#dc3545;
+}
+
+.btn-success{
+    background:#198754;
+}
+
+/* Tables */
+
+.table{
+    background:#fff;
+    border-radius:12px;
+}
+
+/* Footer */
+
+footer{
+    margin-top:60px;
+    font-size:15px;
+    padding:20px;
+    background:#212529;
+    color:white;
+    text-align:center;
+}
+
+/* Dashboard */
+
+.shadow{
+    border-radius:18px;
+}
+
+/* Dark Mode (Future Use) */
+
+body.dark-mode{
+    background:#121212 !important;
+    color:white !important;
+}
+
+body.dark-mode .card{
+    background:#1f1f1f !important;
+    color:white !important;
+}
+
+body.dark-mode .table{
+    color:white !important;
+}
+
+body.dark-mode .navbar{
+    background:#000 !important;
+}
+/* Hero */
+
+.hero{
+
+padding:100px 0;
+
+background:linear-gradient(135deg,#eef6ff,#ffffff);
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+font-weight:bold;
+
+}
+
+.hero h3{
+
+font-weight:bold;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+max-width:750px;
+
+margin:auto;
+
+color:#555;
+
+}
+
+/* Feature Card */
+
+.card{
+
+border:none;
+
+border-radius:20px;
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0px 10px 25px rgba(0,0,0,.15);
+
+}
+
+.card h1{
+
+font-size:55px;
+
+}
+
+.btn{
+
+border-radius:10px;
+
+font-weight:bold;
+
+}
+.card{
+
+border-radius:20px;
+
+}
+
+.form-control{
+
+height:50px;
+
+border-radius:10px;
+
+}
+
+.btn{
+
+height:50px;
+
+font-weight:bold;
+
+border-radius:10px;
+
+}
+
+.btn-primary:hover{
+
+transform:scale(1.03);
+
+transition:.3s;
+
+}
